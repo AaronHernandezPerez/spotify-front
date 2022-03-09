@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply h-5 w-5 transform cursor-pointer duration-100 ease-out hover:scale-125;
+  }
+  .button.disabled {
+    @apply transform-none text-neutral-400;
+  }
+}
+
+@font-face {
+  font-family: "Gotham Medium Regular";
+  font-style: normal;
+  src: url("../fonts/Gotham Medium Regular.ttf");
+}
+
+body {
+  font-family: "Gotham Medium Regular";
+}
