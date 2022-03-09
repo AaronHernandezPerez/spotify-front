@@ -1,13 +1,11 @@
 # Next.js + Tailwind CSS Example
 
-Spotify front end using Nuxt.js & Tailwind
+Spotify front end using Nuxt.js & Tailwind, and connecting to spotify using OAuth 2.0
 
 ## Preview
 
 <center><img src="docs/preview_0.PNG" alt="preview0" /></center>
-<center>![preview0](docs/preview_0.PNG?raw=true)</center>
-<center>![preview0](/docs/preview_0.PNG?raw=true)</center>
-<center>![preview1](./docs/preview_1.PNG)</center>
+<center><img src="docs/preview_1.PNG" alt="preview1" /></center>
 
 ## How to use
 
@@ -16,7 +14,9 @@ yarn
 yarn dev
 ```
 
-.env
+## .env
+
+You need a spotify developer account, create an application and copy the id and secret.
 
 ```
 NEXTAUTH_URL=http://localhost:3000/
